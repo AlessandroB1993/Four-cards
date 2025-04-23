@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  background-color: var(--white);
+  background-color: hsl(220, 16%, 96%);
 }
 
 .cards {
@@ -65,7 +65,7 @@ body {
 }
 
 .cards-main__card {
-  max-width: 25rem;
+  max-width: 26.5rem;
   padding: 2.5rem 2rem;
   box-shadow: 2px 4px 15px -4px var(--grey-400);
   color: var(--grey-500);
@@ -73,6 +73,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  background-color: var(--white);
 }
 
 .cards-main__card h2 {
@@ -109,13 +110,17 @@ body {
   }
 
   .cards {
-    max-width: 70%;
+    max-width: 75%;
   }
 
   .cards-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+
+  .cards-header {
+    font-size: 1.5rem;
   }
 
   .cards-main__card {
